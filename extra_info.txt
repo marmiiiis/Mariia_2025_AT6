@@ -1,0 +1,17 @@
+This file describes the of the class UserInputValidator()
+
+Class UserInputValidator have two methods, validate_positive_integers and msg_validation: 
+
+Method validate_positive_integers works as follows: 
+
+1. Method takes an input from the user in the form of the list og strings. 
+2. Method iterates the list using for-loop. 
+3. Each item in the list is checked if it represents a valid integer.
+4. All the items that are valid than appeneded to the list <pos_int_list>. 
+5. Method returns the list with valid positive integers. 
+
+Method msg_validation: 
+
+1. Method checks if there any items in the list pos_int_list. 
+2. If there is none, method shows a message "No valid positive integers were given by the user."
+3. If there is items in the list method shows the following message "Valid positive integers are found: <list of positive integers>"
